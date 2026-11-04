@@ -1,0 +1,33 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Most answers are in the manuals at [docs.source-robotics.com](https://docs.source-robotics.com/), and each
+        manual has a known issues page. If yours is not there, ask away.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Which product?
+      options:
+        - PAROL6
+        - SSG-48 gripper
+        - MSG gripper
+        - STEPFOC driver
+        - Spectral Micro driver
+        - Other, or more than one
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and what happens instead?
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      description: Steps, settings, firmware or software versions. Photos and screenshots help; drag them in here.
+    validations:
+      required: false
