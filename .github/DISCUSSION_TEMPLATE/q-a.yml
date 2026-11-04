@@ -10,10 +10,12 @@ body:
       label: Which product?
       options:
         - PAROL6
+        - PAR6 (beta)
         - SSG-48 gripper
         - MSG gripper
         - STEPFOC driver
         - Spectral Micro driver
+        - CANvas adapter
         - Other, or more than one
     validations:
       required: true
